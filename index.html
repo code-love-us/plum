@@ -1,4 +1,4 @@
- duele perder algo que imaginaste eterno y también duele tener que recomponerte en noches que recuerdan la luz de una luna compartida. Aquí tienes un diseño bonito, anónimo y fácil de mantener en GitHub Pages, instrucciones para privacidad y copyright, y un poema inspirado en tu historia.
+ 
 
 ---
 <!----    https://copilot.microsoft.com/shares/QQ5Yc5K928zaM49UmYAEs
@@ -11,36 +11,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Versos Anónimos</title>
   <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-  <header class="topbar">
-    <h1>Versos Anónimos</h1>
-    <input id="search" placeholder="Buscar poema, tag o palabra" />
-  </header>
-
-  <main>
-    <section id="hero" class="hero">
-      <div class="hero-card">
-        <h2>Para las noches que recuerdan</h2>
-        <p class="subtitle">Historias, versos y confesiones en voz baja</p>
-      </div>
-    </section>
-
-    <section id="posts" class="posts"></section>
-  </main>
-
-  <template id="post-tmpl">
-    <article class="post">
-      <h3 class="post-title"></h3>
-      <p class="post-body"></p>
-      <footer class="meta"><span class="tags"></span></footer>
-    </article>
-  </template>
-
-  <script src="assets/js/app.js"></script>
-<style>
-### Estilo sugerido (assets/css/style.css)
-```css
+ <style>
+/*### Estilo sugerido (assets/css/style.css)
+```css  */
 :root{
   --bg:#0f1724; /* noche profunda */
   --card:#0b1220; /* fondo tarjetas */
@@ -68,6 +41,40 @@ body{margin:0;font-family:Inter,system-ui,Arial;background:linear-gradient(180de
 .tags{background:rgba(255,143,177,0.06);padding:.25rem .5rem;border-radius:8px;color:var(--accent)}
 @media (prefers-color-scheme: light){:root{--bg:#fff;--card:#fff;--accent:#ff8fb1;--muted:#334155;--glow:#0369a1} body{color:#0b1220}}
 </style>
+
+</head>
+<body>
+  <header class="topbar">
+    <h1>Versos Anónimos</h1>
+    <input id="search" placeholder="Buscar poema, tag o palabra" />
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-card">
+        <h2>Para las noches que recuerdan</h2>
+        <p class="subtitle">Historias, versos y confesiones en voz baja</p>
+      </div>
+    </section>
+
+    <section id="posts" class="posts">
+   duele perder algo que imaginaste eterno y también duele tener que recomponerte en noches que recuerdan la luz de una luna compartida. Aquí tienes un diseño bonito, anónimo y fácil de mantener en GitHub Pages, instrucciones para privacidad y copyright, y un poema inspirado en tu historia.
+    </section>
+
+   <section id="posts" class="posts">
+     
+    </section>
+  </main>
+
+  <template id="post-tmpl">
+    <article class="post">
+      <h3 class="post-title"></h3>
+      <p class="post-body"></p>
+      <footer class="meta"><span class="tags"></span></footer>
+    </article>
+  </template>
+
+  <script src="assets/js/app.js"></script>
   <script>
 
 ///### Lógica cliente (assets/js/app.js)
