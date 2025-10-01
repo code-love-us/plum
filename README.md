@@ -1,10 +1,12 @@
 # plum
 
-Siento lo que viviste; duele perder algo que imaginaste eterno y también duele tener que recomponerte en noches que recuerdan la luz de una luna compartida. Aquí tienes un diseño bonito, anónimo y fácil de mantener en GitHub Pages, instrucciones para privacidad y copyright, y un poema inspirado en tu historia.
+ duele perder algo que imaginaste eterno y también duele tener que recomponerte en noches que recuerdan la luz de una luna compartida. Aquí tienes un diseño bonito, anónimo y fácil de mantener en GitHub Pages, 
+
+instrucciones para privacidad y copyright, y un poema inspirado en tu historia.
 
 ---
 
-### Plantilla HTML (index.html)
+### HTML (index.html)
 ```html
 <!doctype html>
 <html lang="es">
